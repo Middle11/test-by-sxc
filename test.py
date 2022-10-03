@@ -48,4 +48,4 @@ print("%.2f"% num2)
 
 print("你是谁")
 name1 = input()
-print("你是:%s" % name1)
+print("你hhh是:%s" % name1)

@@ -25,7 +25,7 @@ print("22")
 print("欢迎来到儿童游乐场，儿童免费，成人收费10元")
 age = int(input("输入年龄："))
 if age >= 18:
-    print("成年，收费10元")
+    print("成年，收费10元hh")
 
 else:
     print("未成年，免费")
@@ -37,5 +37,5 @@ height = int(input("输入身高:"))
 if height >= 120:
     print("收费10元")
 else:
-    print("免费")
+    print("免费mf")
 
