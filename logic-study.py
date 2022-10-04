@@ -1,4 +1,4 @@
-result = 10 > 8
+"""result = 10 > 8
 print(f"10 > 8 的结果是: {result},类型是:{type(result)}")
 print("10 > 8 的结果是: {result},类型是:{type(result)}")
 print(f"10 > 8 的结果是: result,类型是:{type(result)}")
@@ -33,9 +33,48 @@ else:
 print("祝您愉快")
 
 print("欢迎来到动物园")
-height = int(input("输入身高:"))
-if height >= 120:
+height1 = int(input("输入身高:"))
+if height1 >= 120:
     print("收费10元")
 else:
     print("免费mf")
+
+print("欢迎来到动物园")
+height2 = int(input("输入身高:"))
+vip_level = int(input("输入vip等级(1-5):"))
+if height2 < 120 :
+    print("免费")
+elif vip_level > 3:
+    print("免费ll)
+else:
+    print("10yuan")
+
+print("欢迎来到动物园")
+if int(input("输入身高:")) < 120 :
+    print("免费")
+elif int(input("输入vip等级(1-5):")) > 3:
+    print("免费")
+else:
+    print("10yuan")
+
+print("欢迎来猜数字")
+if int(input("输入猜想的数字:")) == 10 :
+    print("猜对啦")
+elif int(input("不对，第二次机会:")) == 10 :
+    print("猜对啦")
+elif int(input("第三次机会:")) == 10 :
+    print("猜对啦")
+else:
+    print("错了")"""
+
+
+if int(input("输入身高:")) > 120 :
+    print("收钱")
+    if int(input("输入vip等级(1-5):")) > 3:
+        print("mf")
+    else:
+        print("10")
+else:
+    print("mf")
+
 
